@@ -170,6 +170,53 @@
       box-shadow:0 0 25px rgba(255,179,0,0.35);
       z-index:999;
     }
+    .android-btn{
+  display:block;
+  margin-top:35px;
+
+  background:
+  linear-gradient(135deg,#ff9800,#ffb300);
+
+  color:white;
+  text-decoration:none;
+  padding:18px;
+  border-radius:16px;
+  font-size:20px;
+  font-weight:bold;
+
+  box-shadow:
+  0 10px 30px rgba(255,152,0,0.35);
+
+  transition:0.3s;
+}
+
+.android-btn:hover{
+  transform:translateY(-2px);
+}
+
+.ios-btn{
+  display:block;
+  margin-top:18px;
+
+  background:
+  linear-gradient(135deg,#007AFF,#5AC8FA);
+
+  color:white;
+  text-decoration:none;
+  padding:18px;
+  border-radius:16px;
+  font-size:20px;
+  font-weight:bold;
+
+  box-shadow:
+  0 10px 30px rgba(0,122,255,0.35);
+
+  transition:0.3s;
+}
+
+.ios-btn:hover{
+  transform:translateY(-2px);
+}
   </style>
 </head>
 
@@ -200,11 +247,11 @@
         Latest Version
       </div>
 
-      <a class="main-btn android-btn" id="androidBtn" href="app-release.apk">
-        Download APK
+      <a class="android-btn" href="app-release.apk">
+        Download Android APK
       </a>
 
-      <a class="main-btn ios-btn" id="iosBtn" href="https://oqo9.qw.me77.net/">
+      <a class="ios-btn" href="https://oqo9.qw.me77.net/">
         Open iOS Web App
       </a>
 
@@ -232,7 +279,7 @@
 </div>
 
 <a class="floating-btn" id="floatingBtn" href="app-release.apk">
-  Download APK
+  Download Android APK
 </a>
 
 <script>
