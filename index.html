@@ -14,13 +14,19 @@
   <meta property="og:url" content="https://download.jackpotworldcasino.online" />
 
   <style>
-    *{ margin:0; padding:0; box-sizing:border-box; }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
 
     body{
       background:
       radial-gradient(circle at top, rgba(255,152,0,0.18), transparent 38%),
       radial-gradient(circle at bottom, rgba(255,179,0,0.08), transparent 35%),
       #0b0d12;
+
       color:white;
       font-family:Arial, sans-serif;
     }
@@ -60,9 +66,10 @@
       border-radius:30px;
       padding:40px 20px;
       border:1px solid rgba(255,255,255,0.08);
+
       box-shadow:
-        0 0 45px rgba(255,152,0,0.12),
-        0 20px 80px rgba(0,0,0,0.45);
+      0 0 45px rgba(255,152,0,0.12),
+      0 20px 80px rgba(0,0,0,0.45);
     }
 
     .phone-screen{
@@ -92,44 +99,65 @@
       font-size:15px;
     }
 
-    .main-btn{
+    .android-btn{
       display:block;
       margin-top:35px;
-      background:linear-gradient(135deg,#ff9800,#ffb300);
+
+      background:
+      linear-gradient(135deg,#ff9800,#ffb300);
+
       color:white;
       text-decoration:none;
       padding:18px;
       border-radius:16px;
       font-size:20px;
       font-weight:bold;
+
       box-shadow:
-        0 10px 30px rgba(255,152,0,0.35),
-        0 10px 35px rgba(255,152,0,0.35);
+      0 10px 30px rgba(255,152,0,0.35);
+
       transition:0.3s;
     }
 
-    .main-btn:hover{
+    .android-btn:hover{
       transform:translateY(-2px);
     }
 
     .ios-btn{
-      display:none;
-    }
-
-    .android-btn{
-      display:none;
-    }
-
-    .telegram-btn{
       display:block;
       margin-top:18px;
-      background:#229ED9;
+
+      background:
+      linear-gradient(135deg,#007AFF,#5AC8FA);
+
       color:white;
       text-decoration:none;
       padding:18px;
       border-radius:16px;
-      font-size:18px;
+      font-size:20px;
       font-weight:bold;
+
+      box-shadow:
+      0 10px 30px rgba(0,122,255,0.35);
+
+      transition:0.3s;
+    }
+
+    .ios-btn:hover{
+      transform:translateY(-2px);
+    }
+
+    .telegram-btn{
+      display:block;
+      margin-top:28px;
+      background:#229ED9;
+      color:white;
+      text-decoration:none;
+      padding:14px;
+      border-radius:16px;
+      font-size:16px;
+      font-weight:bold;
+      opacity:0.95;
     }
 
     .guide{
@@ -159,7 +187,10 @@
       bottom:20px;
       max-width:460px;
       margin:auto;
-      background:linear-gradient(135deg,#ff9800,#ffb300);
+
+      background:
+      linear-gradient(135deg,#ff9800,#ffb300);
+
       color:white;
       text-decoration:none;
       padding:16px;
@@ -167,57 +198,15 @@
       font-size:18px;
       font-weight:bold;
       text-align:center;
-      box-shadow:0 0 25px rgba(255,179,0,0.35);
+
+      box-shadow:
+      0 0 25px rgba(255,179,0,0.35);
+
       z-index:999;
     }
-    .android-btn{
-  display:block;
-  margin-top:35px;
 
-  background:
-  linear-gradient(135deg,#ff9800,#ffb300);
-
-  color:white;
-  text-decoration:none;
-  padding:18px;
-  border-radius:16px;
-  font-size:20px;
-  font-weight:bold;
-
-  box-shadow:
-  0 10px 30px rgba(255,152,0,0.35);
-
-  transition:0.3s;
-}
-
-.android-btn:hover{
-  transform:translateY(-2px);
-}
-
-.ios-btn{
-  display:block;
-  margin-top:18px;
-
-  background:
-  linear-gradient(135deg,#007AFF,#5AC8FA);
-
-  color:white;
-  text-decoration:none;
-  padding:18px;
-  border-radius:16px;
-  font-size:20px;
-  font-weight:bold;
-
-  box-shadow:
-  0 10px 30px rgba(0,122,255,0.35);
-
-  transition:0.3s;
-}
-
-.ios-btn:hover{
-  transform:translateY(-2px);
-}
   </style>
+
 </head>
 
 <body>
@@ -226,15 +215,16 @@
 
   <img class="logo" src="me77 Logo (1).png">
 
-  <div class="title" id="pageTitle">
+  <div class="title">
     Open me77 App
   </div>
 
-  <div class="subtitle" id="pageSubtitle">
+  <div class="subtitle">
     Choose your device to continue
   </div>
 
   <div class="phone-box">
+
     <div class="phone-screen">
 
       <img class="app-icon" src="me77 - Fav Icon.png">
@@ -243,7 +233,7 @@
         me77 App
       </div>
 
-      <div class="version" id="versionText">
+      <div class="version">
         Latest Version
       </div>
 
@@ -260,76 +250,31 @@
       </a>
 
     </div>
+
   </div>
 
-  <div class="guide" id="guideBox">
+  <div class="guide">
+
     <div class="guide-title">
       How To Install
     </div>
 
-    <div class="step" id="stepOne">
-      Android: Tap “Download APK” and install the app.
+    <div class="step">
+      Android: Tap “Download Android APK” and install the app.
     </div>
 
-    <div class="step" id="stepTwo">
+    <div class="step">
       iPhone: Tap “Open iOS Web App”, then add it to your Home Screen.
     </div>
+
   </div>
 
 </div>
 
-<a class="floating-btn" id="floatingBtn" href="app-release.apk">
+<a class="floating-btn" href="app-release.apk">
   Download Android APK
 </a>
 
-<script>
-  const ua = navigator.userAgent || navigator.vendor || window.opera;
-  const isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-  const isAndroid = /android/i.test(ua);
-
-  const androidBtn = document.getElementById("androidBtn");
-  const iosBtn = document.getElementById("iosBtn");
-  const floatingBtn = document.getElementById("floatingBtn");
-  const pageTitle = document.getElementById("pageTitle");
-  const pageSubtitle = document.getElementById("pageSubtitle");
-  const versionText = document.getElementById("versionText");
-  const stepOne = document.getElementById("stepOne");
-  const stepTwo = document.getElementById("stepTwo");
-
-  if (isIOS) {
-    iosBtn.style.display = "block";
-    androidBtn.style.display = "none";
-
-    floatingBtn.href = "https://oqo9.qw.me77.net/";
-    floatingBtn.innerText = "Open iOS Web App";
-
-    pageTitle.innerText = "Open me77 iOS Web App";
-    pageSubtitle.innerText = "Tap Open App, then add me77 to your iPhone Home Screen.";
-    versionText.innerText = "iOS Web App";
-
-    stepOne.innerText = "1. Tap “Open iOS Web App”.";
-    stepTwo.innerText = "2. Tap Share, then choose “Add to Home Screen”.";
-  } else if (isAndroid) {
-    androidBtn.style.display = "block";
-    iosBtn.style.display = "none";
-
-    floatingBtn.href = "app-release.apk";
-    floatingBtn.innerText = "Download APK";
-
-    pageTitle.innerText = "Download me77 Android APK";
-    pageSubtitle.innerText = "Fast, secure Android APK download.";
-    versionText.innerText = "Android APK";
-
-    stepOne.innerText = "1. Tap “Download APK”.";
-    stepTwo.innerText = "2. Allow installation and open me77 App.";
-  } else {
-    androidBtn.style.display = "block";
-    iosBtn.style.display = "block";
-
-    floatingBtn.href = "app-release.apk";
-    floatingBtn.innerText = "Download APK";
-  }
-</script>
-
 </body>
+
 </html>
